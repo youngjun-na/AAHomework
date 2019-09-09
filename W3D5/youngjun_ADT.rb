@@ -61,6 +61,7 @@ class Map
 
   def delete(key)
     @mapped.select {|pair| pair[0] != key} 
+    
   end
   
   def show
